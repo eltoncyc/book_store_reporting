@@ -1,0 +1,24 @@
+2020-03-02 18:38:34.732 [main] INFO  bookstore.BookStore - 2020-03-03T02:38:34.730Z
+2020-03-02 18:38:34.762 [main] DEBUG bookstore.io.Reader - ReadingD:\Projects\BookStoreReportingSystem\customers.dat
+2020-03-02 18:38:34.769 [main] INFO  bookstore.io.Reader - Collected customers data.
+2020-03-02 18:38:34.773 [main] DEBUG bookstore.io.Reader - ReadingD:\Projects\BookStoreReportingSystem\books500.csv
+2020-03-02 18:38:34.782 [main] INFO  bookstore.io.Reader - Collected books data.
+2020-03-02 18:38:34.783 [main] DEBUG bookstore.io.Reader - ReadingD:\Projects\BookStoreReportingSystem\purchases.csv
+2020-03-02 18:38:34.783 [main] INFO  bookstore.io.Reader - Collected purchases data.
+2020-03-02 18:38:34.783 [main] INFO  bookstore.BookStore - Created Bcmc
+2020-03-02 18:38:34.795 [main] DEBUG bookstore.BookStore - run()
+2020-03-02 18:38:34.795 [main] DEBUG bookstore.BookStore - generating the reports
+2020-03-02 18:38:34.795 [main] DEBUG bookstore.BookStore - generating the customer report
+2020-03-02 18:38:34.796 [main] DEBUG bookstore.io.Report - reportCustomers()
+2020-03-02 18:38:34.806 [main] DEBUG bookstore.io.Writer - writeCustomerReport()
+2020-03-02 18:38:34.811 [main] INFO  bookstore.io.Writer - Created a customers report and saved it as 'customers_report.txt'.
+2020-03-02 18:38:34.811 [main] DEBUG bookstore.BookStore - generating the book report
+2020-03-02 18:38:34.811 [main] DEBUG bookstore.io.Report - reportBooks()
+2020-03-02 18:38:34.827 [main] DEBUG bookstore.io.Writer - writeBookReport()
+2020-03-02 18:38:34.836 [main] INFO  bookstore.io.Writer - Created a books report and saved it as 'books_report.txt'.
+2020-03-02 18:38:34.836 [main] DEBUG bookstore.BookStore - generating the purchase report
+2020-03-02 18:38:34.837 [main] DEBUG bookstore.io.Report - reportPurchases()
+2020-03-02 18:38:34.838 [main] DEBUG bookstore.io.Writer - writePurchaseReport()
+2020-03-02 18:38:34.839 [main] INFO  bookstore.io.Writer - Created a purchases report and saved it as 'purchases_report.txt'.
+2020-03-02 18:38:34.840 [main] INFO  bookstore.BookStore - 2020-03-03T02:38:34.840Z
+2020-03-02 18:38:34.840 [main] INFO  bookstore.BookStore - Duration: 110 ms
